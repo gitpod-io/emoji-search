@@ -1,5 +1,5 @@
 tasks:
-  - init: npm install
+  - init: npm install --ignore-scripts
 ports:
   - port: 3000
     onOpen: open-preview
